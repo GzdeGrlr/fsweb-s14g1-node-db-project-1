@@ -35,7 +35,7 @@ router.post(
       });
       res.status(201).json(newAccount);
     } catch (error) {
-      next(err);
+      next(error);
     }
   }
 );
