@@ -37,7 +37,7 @@ exports.checkAccountNameUnique = async (req, res, next) => {
       next();
     }
   } catch (error) {
-    nect(error);
+    next(error);
   }
 };
 
